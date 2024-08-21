@@ -1,0 +1,159 @@
+body {
+    font-family: serif;
+}
+
+.navbar {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(63, 156, 152);  /* Color de fondo deseado */
+    height: 80%;
+}
+.navbar-nav {
+    margin-right: 20px;
+    padding: 3.2rem; /* Agrega 2rem de padding arriba y abajo */
+}
+.nav-link {
+    font-weight: bold;
+    font-size: 1.5rem; /* Ajusta este valor para cambiar el tamaño de la fuente */
+}
+.navbar-brand {
+    margin-left: 20px; /* Ajusta el margen izquierdo del logo */
+}
+.navbar-nav {
+    margin-right: 20px; /* Ajusta el margen derecho del menú */
+}
+.nav-link {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 2em;
+}
+
+
+
+img {
+    width: 210px;
+}
+h1 {
+    font-size: 30px;
+    color: rgb(17, 15, 15);
+}
+p{
+    font-size: 20px;
+    color: rgb(34, 37, 37);
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 20px 0 10px 0;
+}
+.presentacion h1{
+    font-size: 34px;
+} 
+.presentacion p{
+    width: 80%;
+    font-size: 22px;
+    padding: 10px;
+}
+#nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+#nosotros iframe {
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 15px 0 15px 0;
+    background-color: rgb(253, 246, 246);
+}
+.caja {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img {
+    border-radius: 70%;
+}
+
+.form-container h1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 15px 15px 15px 15px;
+}
+.form-container h1 {
+    font-size: 30px;
+}
+.form-container {
+    text-align: center; /* Centra el contenedor completo */
+    width: 400px; /* Ajusta el ancho del formulario segun tus neecesidades */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.form-container form {
+    text-align: left;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente dentro del contenedor */
+}
+label, input, textarea, button{
+    font-weight: bold;
+}
+label {
+    display: block; /* Hace que cada etiqueta se muestre en una linea nueva */
+    margin-bottom: 10px; /* Añade un margen inferior a cada etiqueta */
+}
+button {
+    display: block;
+    background-color: rgb(61, 180, 174);
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(167, 236, 233); /* Darker blue on hover */
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ajusta el tamaño del carrusel */
+.carousel { 
+    max-height: 900px;
+    width: 700px; /* ajusta el ancho del carrusel */
+    margin: auto; /* centra el carrusel */
+}
+.carousel-item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.carousel-inner img {
+    height: 400px; /* ajusta el tamaño del carrusel */
+    object-fit: cover; /* asegura que las imagenes cubran el area del contenedor */
+    border-radius: 8%;
+} 
+#carouselExamplecontrols {
+    margin: 30px; /* agrega margen alrededor del contenedor del carrusel */
+}
+
+footer {
+    background-color: rgb(193, 214, 213); /* color de fondo */
+    width: 100%;
+    height: 90px;
+    padding: 25px;
+}
